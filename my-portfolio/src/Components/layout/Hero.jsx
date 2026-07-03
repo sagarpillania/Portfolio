@@ -1,0 +1,48 @@
+import Button from "../ui/Buttons";
+
+function Hero() {
+  return (
+    <>
+      {/* The section is our main container. 
+        - px-8 md:px-16: adds nice side spacing.
+        - pt-32: pushes the content down so the navbar doesn't cover it.
+        - flex flex-col md:flex-row: stacks items vertically on mobile, splits side-by-side on desktop.
+      */}
+      <section className="min-h-screen w-full bg-black text-white flex flex-col md:flex-row items-center justify-around px-8 md:px-16 pt-32 pb-12 gap-8" id="home">
+        
+        {/* Left Box: The text details */}
+        <div className="heroText flex flex-col gap-4 max-w-xl">
+          <h3 className="text-zinc-400 text-lg font-medium">
+            Hey, I am Sagar
+          </h3>
+          
+          <h2 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
+            Full-Stack <br /> Developer
+          </h2>
+          
+          <p className="text-zinc-400 text-sm md:text-base leading-relaxed">
+            Blending thoughtful, logical backend design with clean, responsive front-end execution 
+            and scalable architecture to create web applications that look great and perform flawlessly
+          </p>
+          
+          <div className="mt-2">
+            {/* Using your custom variant="card" for the sharper corners here */}
+            <Button variant="card" onClick={() => alert("Downloaded!")}>
+              Download CV
+            </Button>
+          </div>
+        </div>
+
+        {/* Right Box: The image placeholder container */}
+        <div className="heroPic w-72 h-96 md:w-80 md:h-110 rounded-2xl overflow-hidden mr-20">
+          {
+            <img src="src\Assets\Sagar.png" className="w-full h-full object-cover grayscale" />
+          }
+        </div>
+        
+      </section>
+    </>
+  );
+}
+
+export default Hero;
