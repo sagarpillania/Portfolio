@@ -8,12 +8,12 @@ function Hero() {
         - pt-32: pushes the content down so the navbar doesn't cover it.
         - flex flex-col md:flex-row: stacks items vertically on mobile, splits side-by-side on desktop.
       */}
-      <section className="min-h-screen w-full bg-black text-white flex flex-col md:flex-row items-center justify-around px-8 md:px-16 pt-32 pb-12 gap-8" id="home">
+      <section className="min-h-96 w-full bg-black text-white flex flex-col md:flex-row items-center justify-around px-8 md:px-16 pt-32 pb-12 gap-8 select-none" id="home">
         
         {/* Left Box: The text details */}
         <div className="heroText flex flex-col gap-4 max-w-xl">
           <h3 className="text-zinc-400 text-lg font-medium">
-            Hey, I am Sagar
+            Hey, I am Sagar Pillania
           </h3>
           
           <h2 className="text-4xl md:text-6xl font-bold tracking-tight leading-tight">
@@ -34,7 +34,7 @@ function Hero() {
         </div>
 
         {/* Right Box: The image placeholder container */}
-        <div className="heroPic w-72 h-96 md:w-80 md:h-110 rounded-2xl overflow-hidden mr-20">
+        <div className="heroPic w-64 h-78 md:w-70 md:h-94  rounded-2xl overflow-hidden mr-20">
           {
             <img src="src\Assets\Sagar.png" className="w-full h-full object-cover grayscale" />
           }
