@@ -2,7 +2,7 @@ import Button from "../ui/Buttons";
 function Navbar() {
   return (
     // Fixed wrapper to make it float centered at the top
-    <div className="fixed top-0 left-0 w-full flex justify-between items-center p-6 text-white font-medium z-50 bg-black/80 backdrop-blur-md">
+    <div className="fixed top-0 left-0 w-full flex justify-between items-center p-6 text-white font-medium z-50 bg-black/80 backdrop-blur-md select-none">
       
       {/* Logo */}
       <div className="logo bg-[#121212] border border-zinc-800 py-2 px-4 rounded-full cursor-pointer hover:bg-zinc-800 transition">
