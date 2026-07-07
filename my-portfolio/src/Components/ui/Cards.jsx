@@ -19,7 +19,7 @@ function Cards({title, description, tags=[]}){
             </div>
 
             {/* Bottom Container: Stays locked to the bottom edge */}
-            <div className="flex flex-col gap-2 mt-auto">
+            <div className="flex flex-col gap-2 mt-auto border-gray-600 border-t pt-4">
                 {tags.map((elem, idx) => {
                     return (
                         <div key={idx} className="w-fit">

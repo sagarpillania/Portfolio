@@ -20,3 +20,27 @@ export const servicesData = [
     tags: ["GitHub Actions / Git", "Vercel & Cloud Hosting"]
   }
 ];
+
+
+export const skillsData = [
+  // Frontend Tech
+  { name: "React.js", category: "Frontend" },
+  { name: "Redux Toolkit", category: "Frontend" },
+  { name: "JavaScript (ES6+)", category: "Frontend" },
+  { name: "Tailwind CSS", category: "Frontend" },
+  { name: "HTML5 & CSS3", category: "Frontend" },
+  
+  // Backend & Databases
+  { name: "Node.js", category: "Backend" },
+  { name: "Express.js", category: "Backend" },
+  { name: "REST APIs", category: "Backend" },
+  { name: "MongoDB", category: "Backend" },
+  { name: "SQL", category: "Backend" },
+  
+  // Professional & Tools
+  { name: "Git & GitHub", category: "Tools" },
+  { name: "Vitest / RTL", category: "Tools" },
+  { name: "Enterprise Architecture", category: "Tools" },
+  { name: "Agile / Scrum", category: "Tools" },
+  { name: "Jira", category: "Tools" }
+];

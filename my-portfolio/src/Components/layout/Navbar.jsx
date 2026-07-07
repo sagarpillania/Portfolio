@@ -16,7 +16,7 @@ function Navbar() {
         {/* Underline class to match the screenshot's active tab */}
         <a href="#about" className="text-white border-b border-white pb-0.5">About</a>
         <a href="#skills" className="hover:text-white transition">Skills</a>
-        <a href="#projects" className="hover:text-white transition">Projects</a>
+        <a href="#projects" className="hover:text-white transition">Experience</a>
       </div>
       <Button onClick={()=>alert("Let's talk clicked!")}>Let's Talk</Button>
     </div>

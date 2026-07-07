@@ -7,7 +7,7 @@ function About(){
         <div className="select-none">
             <div className="flex justify-center items-center flex-col gap-2 mt-4 text-white">
                 <h1 className="text-3xl">About Me</h1>
-                <p className="text-xs ml-6 text-center leading-5 font-semibold">I'm a full-stack developer passionate about crafting clean, secure, and responsive digital experiences. 
+                <p className="text-xs ml-6 text-center leading-5 pr-4 font-semibold">I'm a full-stack developer passionate about crafting clean, secure, and responsive digital experiences. 
                 I focus on turning complex backend logic into seamless user interfaces by understanding system goals, 
                 optimizing database structures, and ensuring smooth performance across devices.
                 </p>
@@ -34,11 +34,11 @@ function About(){
                 </div>
             </div>
             <div className=" flex text-white justify-center items-center px-6 text-m mt-4 gap-4">
-                <div className="flex flex-col ">
+                <div className="flex flex-col border-gray-600 border-r pr-3 ">
                     <h3 className="text-center">02</h3>
                     <p className="text-sm">Years of Experience</p>
                 </div>
-                <div className="flex flex-col ">
+                <div className="flex flex-col border-gray-600 border-r pr-4">
                     <h3 className="text-center">05+</h3>
                     <p className="text-sm">Modules Shipped</p>
                 </div>
