@@ -1,4 +1,5 @@
 import Button from "../ui/Buttons";
+import { Github, Linkedin, Terminal } from "lucide-react";
 
 function Hero() {
   return (
@@ -27,9 +28,16 @@ function Hero() {
           
           <div className="mt-2">
             {/* Using your custom variant="card" for the sharper corners here */}
-            <Button variant="card" onClick={() => alert("Downloaded!")}>
-              Download CV
-            </Button>
+            <a href="/SagarPillania_resume.pdf" download="SagarPillania_resume.pdf" className="inline-flex">
+              <Button variant="card">
+                Download CV
+              </Button>
+            </a>
+          </div>
+          <div className="flex justify-start items-start gap-2">
+            <a href="https://github.com/sagarpillania" target="_blank" className="hover:text-white transition"><Github size={18} strokeWidth={2} /></a>
+            <a href="https://www.linkedin.com/in/sagar-pillania/" target="_blank" className="hover:text-white transition"><Linkedin size={18} strokeWidth={2} /></a>
+            <a href="https://leetcode.com/u/sagarpillania/" target="_blank" className="hover:text-white transition"><Terminal size={18} strokeWidth={2} /></a>
           </div>
         </div>
 
