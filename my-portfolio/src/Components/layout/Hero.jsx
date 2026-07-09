@@ -1,5 +1,6 @@
 import Button from "../ui/Buttons";
-import { Github, Linkedin, Terminal } from "lucide-react";
+import { SiLeetcode } from "react-icons/si";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Hero() {
   return (
@@ -34,10 +35,10 @@ function Hero() {
               </Button>
             </a>
           </div>
-          <div className="flex justify-start items-start gap-2">
-            <a href="https://github.com/sagarpillania" target="_blank" className="hover:text-white transition"><Github size={18} strokeWidth={2} /></a>
-            <a href="https://www.linkedin.com/in/sagar-pillania/" target="_blank" className="hover:text-white transition"><Linkedin size={18} strokeWidth={2} /></a>
-            <a href="https://leetcode.com/u/sagarpillania/" target="_blank" className="hover:text-white transition"><Terminal size={18} strokeWidth={2} /></a>
+          <div className="flex justify-start items-start gap-8 ml-1 mt-2">
+            <a href="https://github.com/sagarpillania" target="_blank" className="hover:text-white transition"><FaGithub /></a>
+            <a href="https://www.linkedin.com/in/sagar-pillania/" target="_blank" className="hover:text-white transition"><FaLinkedin /></a>
+            <a href="https://leetcode.com/u/sagarpillania/" target="_blank" className="hover:text-white transition"> <SiLeetcode /></a>
           </div>
         </div>
 
