@@ -5,3 +5,26 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* Target the scrollbar area itself */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the vertical scrollbar */
+  height: 10px; /* Height of the horizontal scrollbar */
+}
+
+/* Target the track (the background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #000000; /* Pure black to match your background */
+}
+
+/* Target the thumb (the moving scroll indicator bar) */
+::-webkit-scrollbar-thumb {
+  background: #27272a; /* Zinc-800 grey so it blends cleanly but remains visible when scrolling */
+  border-radius: 9999px; /* Fully rounded pill shape */
+  border: 2px solid #000000; /* Creates an invisible padding layer using the black background color */
+}
+
+/* Darken the thumb slightly when hovering over it */
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46; /* Zinc-700 grey */
+}
