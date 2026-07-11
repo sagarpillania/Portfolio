@@ -28,3 +28,13 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #3f3f46; /* Zinc-700 grey */
 }
+
+@theme{
+  /* Tailwind v4 smooth scroll configuration */
+  --scroll-behavior: smooth;
+}
+
+/* Or standard CSS backup */
+html{
+  scroll-behavior: smooth;
+}

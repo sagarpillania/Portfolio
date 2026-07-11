@@ -18,7 +18,7 @@ function Skills() {
     : skillsData.filter(skill => skill.category === activeCategory);
 
   return (
-    <section id="skills" className="w-full bg-black text-white px-8 md:px-16 py-20 select-none">
+    <section id="skills" className="w-full bg-black text-white px-8 md:px-16 py-5 select-none">
       
       {/* Header */}
       <div className="text-center flex flex-col gap-2 mb-10">
