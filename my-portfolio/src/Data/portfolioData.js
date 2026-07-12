@@ -44,3 +44,36 @@ export const skillsData = [
   { name: "Agile / Scrum", category: "Tools" },
   { name: "Jira", category: "Tools" }
 ];
+
+export const expData = [
+    {
+      title: "Bug Resolution Speed",
+      metric: "35% Cut",
+      desc: "Fixed broken React conditional rendering and state hook logic, cutting recurring UI bugs and restoring critical user search features.",
+    },
+    {
+      title: "Data Rendering Boost",
+      metric: "40% Faster",
+      desc: "Built dynamic frontend filter panels with controlled inputs, reducing browser rendering lag during massive data loads.",
+    },
+    {
+      title: "Automated Reporting",
+      metric: "50% Gain",
+      desc: "Developed automated scripts to fetch cloud database logs, replacing manual tracking and speeding up weekly report delivery.",
+    },
+    {
+      title: "SQL Data Integration",
+      metric:null,
+      desc: "Wrote optimized SQL queries to extract data across complex tables, boosting data retrieval performance for the frontend application.",
+    },
+    {
+      title: "Dynamic Status Control",
+      metric: null,
+      desc: "Implemented active/inactive status logic for user rendering modules, increasing administrative workflow efficiency.",
+    },
+    {
+      title: "Recognized Excellence",
+      metric: "2 Awards",
+      desc: "Earned 2 Customer Appreciation Awards for outstanding technical ownership and minimizing system downtime during high-pressure outages.",
+    },
+  ];
