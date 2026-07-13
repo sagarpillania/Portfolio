@@ -7,6 +7,7 @@ import Skills from "./Components/layout/Skills"
 import { useEffect } from "react"
 import { useState } from "react";
 import TalkForm from "./Components/layout/TalkForm"
+import Footer from "./Components/layout/Footer"
 
 function App() {
     const [isOpen,setIsOpen]=useState(false);
@@ -42,9 +43,11 @@ function App() {
             <Navbar activeSection={activeSection} onOpenForm={()=>setIsOpen(true)}/>
             <div id="home" className="scroll-mt-24"><Hero/></div>
             <div id="services" className="scroll-mt-24"><Services/></div>
-            <div id="about" className="scroll-mt-24"><About/></div>
+            <div id="about" className="scroll-mt-24"><About onOpenForm={()=>setIsOpen(true)}/></div>
             <div id="experience" className="scroll-mt-24"><Experience/></div>
             <div id="skills" className="scroll-mt-24"><Skills/></div>
+            <div id="footer" className="scroll-mt-24"><Footer/></div>
+
             {isOpen && (
                 <div className="fixed inset-0 bg-black/60 backdrop-blur-md z-100 flex flex-col justify-center items-center p-4 ">
                     <div className="bg-[#0a0a0a] border border-zinc-800 w-full max-w-xl p-2 rounded-2xl relative">

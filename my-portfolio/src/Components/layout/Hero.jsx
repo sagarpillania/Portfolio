@@ -43,7 +43,7 @@ function Hero() {
         </div>
 
         {/* Right Box: The image placeholder container */}
-        <div className="heroPic w-64 h-78 md:w-70 md:h-94  rounded-2xl overflow-hidden mr-20">
+        <div className="heroPic w-64 h-78 md:w-70 md:h-94  rounded-2xl overflow-hidden md:mr-20 mr-0">
           {
             <img src="src\Assets\Sagar.png" className="w-full h-full object-cover grayscale" />
           }
