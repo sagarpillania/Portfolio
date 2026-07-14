@@ -1,7 +1,7 @@
 import Button from "../ui/Buttons";
 import { SiLeetcode } from "react-icons/si";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-
+import myPhoto from '../../Assets/Sagar.png';
 function Hero() {
   return (
     <>
@@ -45,7 +45,7 @@ function Hero() {
         {/* Right Box: The image placeholder container */}
         <div className="heroPic w-64 h-78 md:w-70 md:h-94  rounded-2xl overflow-hidden md:mr-20 mr-0">
           {
-            <img src="src\Assets\Sagar.png" className="w-full h-full object-cover grayscale" />
+            <img src={myPhoto} alt="Sagar Pillania" className="w-full h-full object-cover grayscale" />
           }
         </div>
         
